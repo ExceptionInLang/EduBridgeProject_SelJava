@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.99" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test add to cart and remove from cart" name="Adding item to cart" time="15.232">
+<system-out><![CDATA[
+Given User has already navigated to the product webpage.....................passed
+Then user selects size and color............................................passed
+And click Add to Cart button................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test add to cart and remove from cart" name="Removing item from cart" time="20.61">
+<system-out><![CDATA[
+Given User navigates to the cart page.......................................passed
+Then click on delete button.................................................passed
+And close the  browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

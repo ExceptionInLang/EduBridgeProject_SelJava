@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.654" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test Add To Cart button functionality" name="Adding item to cart when size and color are not selected" time="7.52">
+<system-out><![CDATA[
+Given User has already navigated to the product webpage to be added in the cart.passed
+And hits Add to Cart button.................................................passed
+Then error message is displayed.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
